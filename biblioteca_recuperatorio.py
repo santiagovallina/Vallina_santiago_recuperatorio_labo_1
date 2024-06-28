@@ -17,7 +17,7 @@ def cargar_archivo(nombre_archivo: str) -> list:
     except TypeError:
         print("Tipo de dato erroneo")
 
-lista_archivo = cargar_archivo("recuperatorio_labo_1/compu.json")
+lista_archivo = cargar_archivo("compu.json")
 
 # 2) Imprimir lista: Se imprimirá por pantalla la tabla (en forma de columnas) con los datos de los
 # servicios.
